@@ -20,4 +20,15 @@ fun main(){
     for (i in 10 downTo 1 step 3){
         print("$i ")
     }
+
+    var num = 10
+
+    while(num > 0){
+        print("$num ")
+        num--
+    }
+    println()
+    do{
+        print("I will execute no matter what happened.")
+    }while(num > 0)
 }
